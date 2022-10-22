@@ -1,0 +1,127 @@
+/*-------body---------*/
+body {
+    background-color: #f8f8f8;
+    width: 100%;
+  }
+  /*-------Navigation Style---------*/
+  
+  
+  /*-------Navigation---------*/
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
+  
+
+}
+
+.navbar-brand {
+  margin-left: 4%;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 4% !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+  font-size: 18px;
+
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background-size: cover;
+ 
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #ffa800;
+   
+}
+
+/* Navigation links */
+.customNav a {
+  color: #070055 !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+  
+.intro {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 10%;
+}
+
+.summary {
+ 
+  padding-left: 10%;
+
+}
+.summaryP {
+ width: 70%;
+}
+
+.technicalSkills {
+  padding-left: 10%;
+}
+
+.portfolio {
+  display: flex;
+  gap: 15px;
+  flex-direction: row !important;
+}
+
+.hr1 {
+  display: flex!important;
+  width: 60%;
+ margin-left: 10%;
+}
+.hr2 {
+  display: flex!important;
+  width: 66%;
+}
+.hrheader {
+  color:#070055;
+  height: 2px;
+  
+}
+.technicalSkills2 {
+  padding-bottom: 50px;
+}
+
+
+
+.Ambers-Portfolio-2022 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 15px 0px;
+  flex-grow: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color:#e1e0e0;
+}
+
+#endGame {
+  width:100%;
+  background-color:#1f1f1f;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 10px;
+}
